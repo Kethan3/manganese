@@ -6,6 +6,8 @@
 
 import React from "react";
 import NavigationBar from "../../components/navigation-bar/NavigationBar";
+import Container from "../../components/container/Container";
+import { BerarCounter } from "./components/bear-counter/BearCounter";
 
 
 
@@ -23,6 +25,9 @@ const Home = () : React.ReactNode => {
     return <>
    <div className="home-root">
    <NavigationBar />
+   <Container>
+    <BerarCounter/>
+   </Container>
    </div>
     </>
 }
