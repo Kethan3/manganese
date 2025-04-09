@@ -6,7 +6,7 @@ const NavigationBar = () => {
     const location = useLocation();
     const currentPath = location.pathname;
   return (
-    <div className="navigation-bar">
+    <div className="navigation-bar-root">
      <nav>
      <ul className="navigation-bar-links">
           <li><NavLink to="/product" className={currentPath == "/product" ? "navigation-link-selected" : ""}>Product</NavLink></li>
