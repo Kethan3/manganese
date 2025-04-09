@@ -1,0 +1,19 @@
+.navigation-bar {
+background-color: orange;
+}
+
+.navigation-bar-links {
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap : 166px;
+    justify-content: center;
+    margin: 0px;
+
+}
+.navigation-link-selected{
+    color: red;
+}
+
+
